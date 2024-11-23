@@ -1,0 +1,188 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+header img {
+    width: 100px;
+}
+
+/* Barra de navegação */
+nav {
+    background-color: #444;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    padding: 10px 15px;
+}
+
+nav a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+/* Seções */
+section {
+    padding: 50px;
+    text-align: center;
+}
+
+#home {
+    background-color: #f4f4f4;
+}
+
+#sobre {
+    background-color: #ddd;
+}
+
+#menu {
+    background-color: #eee;
+}
+
+#galeria {
+    background-color: #f4f4f4;
+}
+
+#contato {
+    background-color: #ddd;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
+/* Menu em tabela */
+table {
+    width: 50%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+table,
+th,
+td {
+    border: 1px solid #ddd;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #333c;
+    color: white;
+}
+  /* Galeria de imagens */
+  #galeria {
+        background-color: #eee;
+    }
+
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 10px;
+        padding: 20px;
+    }
+
+    .gallery img {
+        width: 100%;
+        height: auto;
+    }
+    .image-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Grade de imagens responsiva */
+        gap: 10px; /* Espaço entre as imagens */
+    }
+
+    .image-grid img {
+        width: 100%; /* Largura de 100% do contêiner */
+        height: 200px; /* Altura fixa */
+        object-fit: cover; /* Corta a imagem para preencher o espaço, sem distorcer */
+        border-radius: 5px; /* Bordas arredondadas, opcional */
+    }
+
+      /* Formulário de reserva */
+      #contato {
+        background-color: #f9f9f9;
+        padding: 30px;
+    }
+ 
+
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #333c;
+        padding: 20px;
+        border-radius: 10px;
+        color: white;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    form label {
+        margin-top: 10px;
+        text-align: left;
+        width: 100%;
+    }
+
+    form input, form select {
+        width: 100%;
+        padding: 10px;
+        margin-top: 5px;
+        border-radius: 5px;
+        border: none;
+        outline: none;
+    }
+
+    button {
+        width: 100%;
+        margin-bottom: 0px;/* Espaçamento entre os campos */
+    }
+
+    /* botão */
+    button {
+        background-color: white;
+        color: black;
+        border: none;
+        padding: 10px;
+        cursor: pointer;
+    }
+    
+    button:hover {
+        background-color: #333c;
+        display: block;
+    }
+    
+     /* Rodapé */
+     footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        margin-top: 20px;
+    }
+
+    footer a {
+        color: white;
+        margin: 5px;
+    }
